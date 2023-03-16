@@ -1,0 +1,11 @@
+open project directory in terminal, then type: docker run .
+
+next type: docker ps -a
+
+see our image id
+
+type: docker run -p 8888:8080 "image_id"
+
+go to localhost 8888
+
+voila
